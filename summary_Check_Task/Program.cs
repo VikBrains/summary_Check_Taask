@@ -23,3 +23,31 @@ Console.WriteLine();
 Console.Write("Your array: [");
 Console.Write(string.Join(", ", array1));
 Console.Write("]");
+
+int maxSymbols = 3;
+int correctElemCount = 0;
+
+for (int i = 0; i < array1.Length; i++)
+{
+    if(array1[i].Length <= maxSymbols)
+    {
+        correctElemCount++;
+    }   
+}
+Console.WriteLine();
+string[] array2 = new string[correctElemCount];
+int j = 0;
+for (int i = 0; i < array1.Length; i++)
+{
+    if(array1[i].Length <= maxSymbols)
+    {
+        array2[j] = array1[i];
+          j++;
+    }
+}
+
+Console.WriteLine();
+Console.Write("result array: [");
+Console.Write(string.Join(", ", array2));
+Console.Write("]");
+Console.WriteLine("\n");

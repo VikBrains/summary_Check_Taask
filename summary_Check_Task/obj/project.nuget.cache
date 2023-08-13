@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zGwppjoR/y0ab5JvItSm9W8cf2GlNJC+tN96oSaqoxfTVhLTlhM8HIt/fBu60/OxyB7iVwmWe+9u2JEVgLyNRQ==",
+  "dgSpecHash": "SViKvcpx2KsdGiwn+CZVx6DSiT0qDvZu13mTj50AjQKM9spyjtVsnTNbC8X1YUShw5erUhdDicZoiZo43VXr5A==",
   "success": true,
-  "projectFilePath": "c:\\Git\\SummaryCheckTask\\summary_Check_Task\\summary_Check_Task.csproj",
+  "projectFilePath": "C:\\Git\\SummaryCheckTask\\summary_Check_Task\\summary_Check_Task.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

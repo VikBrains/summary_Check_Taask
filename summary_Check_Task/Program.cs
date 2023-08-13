@@ -12,3 +12,14 @@ Console.WriteLine("input array size: ");
 int size  = int.Parse(Console.ReadLine()!);
 
 string[] array1 = new string[size];
+
+for (int i = 0; i < size; i++)
+{
+    Console.Write("input array line: ");
+    string line = Console.ReadLine()!;
+    array1[i] = line;  
+}
+Console.WriteLine();
+Console.Write("Your array: [");
+Console.Write(string.Join(", ", array1));
+Console.Write("]");

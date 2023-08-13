@@ -51,3 +51,5 @@ Console.Write("result array: [");
 Console.Write(string.Join(", ", array2));
 Console.Write("]");
 Console.WriteLine("\n");
+Console.WriteLine();
+Console.WriteLine();

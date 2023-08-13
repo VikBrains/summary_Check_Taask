@@ -33,3 +33,5 @@ array1[i] <= maxSymbols
 ### Алгоритм решения таков
 
 ![my scheme](Scheme_x.jpg)
+
+![log of commit](log.jpg)
